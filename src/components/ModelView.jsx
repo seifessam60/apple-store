@@ -1,5 +1,4 @@
 import {
-  Html,
   OrbitControls,
   PerspectiveCamera,
   View,
@@ -8,7 +7,7 @@ import Lights from "./Lights";
 import { Suspense } from "react";
 
 import * as THREE from "three";
-import IPhone from "./IPhone";
+import IPhone from "./Iphone";
 import Loader from "./Loader";
 
 const ModelView = ({
