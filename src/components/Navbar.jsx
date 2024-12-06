@@ -17,9 +17,21 @@ const Navbar = () => {
             </div>
           ))}
         </div>
-        <div className="flex items-baseline max-sm:flex-1 max-sm:justify-end gap-7">
-          <img src={searchImg} alt='search' width={18} height={18} />
-          <img src={bagImg} alt='bag' width={18} height={18} />
+        <div className='flex items-baseline max-sm:flex-1 max-sm:justify-end gap-7'>
+          <img
+            src={searchImg}
+            className='cursor-pointer'
+            alt='search'
+            width={18}
+            height={18}
+          />
+          <img
+            src={bagImg}
+            className='cursor-pointer'
+            alt='bag'
+            width={18}
+            height={18}
+          />
         </div>
       </nav>
     </header>
